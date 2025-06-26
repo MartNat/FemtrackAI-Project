@@ -1,0 +1,28 @@
+# Global ignores (for the root project)
+.DS_Store
+.env
+.vscode/ # If you use VS Code
+
+# Django Backend specific ignores
+FemTrackAI_Backend/venv/
+FemTrackAI_Backend/__pycache__/
+FemTrackAI_Backend/*.pyc
+FemTrackAI_Backend/db.sqlite3
+FemTrackAI_Backend/*.sqlite3
+FemTrackAI_Backend/*.sqlite3-journal
+FemTrackAI_Backend/media/
+FemTrackAI_Backend/static/
+FemTrackAI_Backend/*.log
+# Any other specific Django related ignores within the backend folder
+
+# React Frontend specific ignores
+FemTrackAI_Frontend/node_modules/
+FemTrackAI_Frontend/build/
+FemTrackAI_Frontend/.env.local
+FemTrackAI_Frontend/.env.development.local
+FemTrackAI_Frontend/.env.test.local
+FemTrackAI_Frontend/.env.production.local
+FemTrackAI_Frontend/npm-debug.log*
+FemTrackAI_Frontend/yarn-debug.log*
+FemTrackAI_Frontend/yarn-error.log*
+# Any other specific React/Node related ignores within the frontend folder
